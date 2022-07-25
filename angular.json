@@ -28,7 +28,12 @@
               "projects/ng-ssr/src/assets"
             ],
             "styles": [
-              "projects/ng-ssr/src/styles.scss"
+              "projects/ng-ssr/src/styles.scss",
+              {
+                "input": "projects/ng-ssr/src/theme.scss",
+                "inject": false,
+                "bundleName": "theme.css"
+              }
             ],
             "scripts": []
           },
